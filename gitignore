@@ -1,0 +1,67 @@
+# File môi trường và biến bí mật
+.env
+key.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File cấu hình chứa thông tin nhạy cảm
+config.ini
+secrets.ini
+credentials.json
+*.key
+*.pem
+
+# Thư mục và file của Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# File ảo hóa môi trường
+venv/
+env/
+ENV/
+
+# File của IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# File hệ thống
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# File log
+*.log
+logs/
+
+# File tạm
+temp/
+tmp/
